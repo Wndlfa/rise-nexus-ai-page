@@ -23,12 +23,10 @@ const Navbar = () => {
       <div className="container px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="b2.png" className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-lg bg-gradient-primary flex items-center justify-center">
-              <Zap className="w-5 h-5 text-primary-foreground" />
-            </div>
-            <span className="text-xl font-bold text-foreground">B2 Nexus</span>
-          </a>
+          <div className="flex items-center gap-2">
+            <img src="b2.png" alt="B2 Nexus" className="w-16 h-16 rounded-lg object-contain" />
+            
+          </div>
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">

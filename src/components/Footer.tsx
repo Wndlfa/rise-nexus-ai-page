@@ -9,10 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center">
-                <Zap className="w-6 h-6 text-primary-foreground" />
-              </div>
-              <span className="text-2xl font-bold text-foreground">B2 Nexus</span>
+            <img src="b2.png" alt="B2 Nexus" className="w-16 h-16 rounded-lg object-contain" />
             </div>
             <p className="text-muted-foreground max-w-sm leading-relaxed">
               Transformando negócios através de marketing inteligente e automação com IA.

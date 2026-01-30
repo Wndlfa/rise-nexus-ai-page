@@ -1,36 +1,36 @@
 import { motion } from "framer-motion";
-import { Bot, Target, Zap, TrendingUp, Mail, BarChart3 } from "lucide-react";
+import { Bot, Calendar, Zap, Facebook, Webhook, Database, MessageSquare } from "lucide-react";
 
 const services = [
   {
     icon: Bot,
     title: "Automação com IA",
-    description: "Chatbots inteligentes e fluxos automatizados que qualificam leads 24/7 sem intervenção humana."
+    description: "Automação Generativa inteligente e personalizada para otimizar processos e resultados."
   },
   {
-    icon: Target,
-    title: "Tráfego Pago",
-    description: "Campanhas otimizadas por IA para Google, Meta e LinkedIn com ROI maximizado."
+    icon: Calendar,
+    title: "Integração com Google Calendar",
+    description: "Integração com Google Calendar para agendamento de consultas e reuniões."
   },
   {
-    icon: Mail,
-    title: "Email Marketing",
-    description: "Sequências automatizadas personalizadas que nutrem leads até a conversão."
+    icon: Database,
+    title: "Integração com CRM",
+    description: "Integração com CRM para gerenciamento de leads e clientes."
   },
   {
-    icon: TrendingUp,
-    title: "Growth Hacking",
-    description: "Estratégias data-driven para acelerar crescimento com experimentos validados."
+    icon: MessageSquare,
+    title: "Disparo em Massa",
+    description: "Disparo em massa para envio de mensagens para seus clientes via WhatsApp."
   },
   {
-    icon: Zap,
-    title: "Integração de Sistemas",
-    description: "Conectamos seu CRM, marketing e vendas em um ecossistema automatizado."
+    icon: Facebook,
+    title: "Facebook Leads",
+    description: "Coleta de leads e envio de mensagens para leads de forma automatizada e personalizada."
   },
   {
-    icon: BarChart3,
-    title: "Analytics Avançado",
-    description: "Dashboards em tempo real com insights acionáveis para tomada de decisão."
+    icon: Webhook,
+    title: "API e Webhooks",
+    description: "Criação de API e Webhooks para integração com outros sistemas."
   }
 ];
 
