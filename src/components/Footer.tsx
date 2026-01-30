@@ -62,7 +62,7 @@ const Footer = () => {
               href="https://b2nexus.com/privacy-policy"
               className="hover:text-primary transition-colors"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener"
             >
               Política de Privacidade
             </a>
@@ -71,7 +71,7 @@ const Footer = () => {
               href="https://b2nexus.com/terms-of-use"
               className="hover:text-primary transition-colors"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener"
             >
               Termos de Uso
             </a>
