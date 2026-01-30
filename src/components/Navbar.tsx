@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="container px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2">
+          <a href="b2.png" className="flex items-center gap-2">
             <div className="w-9 h-9 rounded-lg bg-gradient-primary flex items-center justify-center">
               <Zap className="w-5 h-5 text-primary-foreground" />
             </div>
@@ -45,9 +45,11 @@ const Navbar = () => {
 
           {/* CTA */}
           <div className="hidden md:block">
+            <a href="https://app.b2nexus.com.br">
             <Button variant="hero" size="sm">
-              Fale conosco
+              Comece agora
             </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
