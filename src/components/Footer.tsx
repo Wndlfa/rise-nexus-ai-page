@@ -58,11 +58,22 @@ const Footer = () => {
             © 2026 B2 Nexus. Todos os direitos reservados.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
-            <a href="https://b2nexus.com/privacy-policy">
-            <span className="hover:text-primary transition-colors cursor-pointer">Política de Privacidade</span>
+            <a
+              href="https://b2nexus.com/privacy-policy"
+              className="hover:text-primary transition-colors"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Política de Privacidade
             </a>
-            <a href="https://b2nexus.com/terms-of-use">
-            <span className="hover:text-primary transition-colors cursor-pointer">Termos de Uso</span>
+
+            <a
+              href="https://b2nexus.com/terms-of-use"
+              className="hover:text-primary transition-colors"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Termos de Uso
             </a>
           </div>
         </div>
