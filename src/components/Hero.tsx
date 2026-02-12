@@ -84,7 +84,7 @@ const Hero = () => {
             transition={{ delay: 0.8, duration: 0.6 }}
             className="mt-16 pt-8 border-t border-border/50"
           >
-            <p className="text-sm text-muted-foreground mb-4">Empresas que confiam na B2 Nexus</p>
+            <p className="text-sm text-muted-foreground mb-4 text-center">Empresas que confiam na B2 Nexus</p>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
               {['TechFlow', 'Innovate', 'ScaleUp', 'GrowthCo', 'NextGen'].map((company) => (
                 <span key={company} className="text-lg font-semibold text-muted-foreground">
@@ -102,7 +102,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="hidden lg:flex items-center justify-center relative"
         >
-          <div className="w-full aspect-square max-w-md bg-muted/10 rounded-3xl border-2 border-dashed border-primary/20 flex items-center justify-center relative backdrop-blur-sm">
+          <div className="w-full aspect-square max-w-xl bg-muted/10 rounded-3xl border-2 border-dashed border-primary/20 flex items-center justify-center relative backdrop-blur-sm">
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/5 to-transparent rounded-3xl" />
             
             <div className="text-center p-6 relative z-10">

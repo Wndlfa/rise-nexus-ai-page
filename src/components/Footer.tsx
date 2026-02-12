@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-            <img src="b2.png" alt="B2 Nexus" className="w-16 h-16 rounded-lg object-contain" />
+            <img src="logo-b2n.png" alt="B2 Nexus" className="w-16 h-16 rounded-lg object-contain" />
             </div>
             <p className="text-muted-foreground max-w-sm leading-relaxed">
               Transformando negócios através de marketing inteligente e automação com IA.

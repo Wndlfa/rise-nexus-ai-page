@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <img src="b2.png" alt="B2 Nexus" className="w-16 h-16 rounded-lg object-contain" />
+            <img src="logo-b2n.png" alt="B2 Nexus" className="w-16 h-16 rounded-lg object-contain" />
             
           </div>
 
