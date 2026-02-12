@@ -7,7 +7,7 @@ const founders = [
     name: "Jhordan Borges",
     role: "CEO & Co-founder",
     description: "Visionário estratégico com mais de 10 anos de experiência em growth hacking e escala de negócios digitais.",
-    image: null, // nome do arquivo na pasta public "jhordan-borges.png"
+    image: "jhordan-perfil.png", // nome do arquivo na pasta public "jhordan-borges.png"
     linkedin: "https://www.linkedin.com/in/", // Preencher com o link do LinkedIn
     twitter: "https://twitter.com/", // Preencher com o link do Twitter
     instagram: "https://instagram.com/", // Preencher com o link do Instagram
@@ -16,7 +16,7 @@ const founders = [
     name: "Wendel Lucas",
     role: "CTO & Founder",
     description: "Especialista em inteligência artificial e arquitetura de sistemas distribuídos de alta performance.",
-    image: null, // nome do arquivo na pasta public "wendel-lucas.png"
+    image: "wendel-perfil.png", // nome do arquivo na pasta public "wendel-lucas.png"
     linkedin: "https://www.linkedin.com/in/", // Preencher com o link do LinkedIn
     twitter: "https://twitter.com/", // Preencher com o link do Twitter
     instagram: "https://instagram.com/", // Preencher com o link do Instagram
@@ -25,7 +25,7 @@ const founders = [
     name: "Rodrigo Santos",
     role: "CMO & Co-founder",
     description: "Mestre em branding e psicologia do consumidor, focado em criar conexões autênticas.",
-    image: null, // nome do arquivo na pasta public "rodrigo-santos.png"
+    image: "rodrigo-perfil.png", // nome do arquivo na pasta public "rodrigo-santos.png"
     linkedin: "https://www.linkedin.com/in/", // Preencher com o link do LinkedIn
     twitter: "https://twitter.com/", // Preencher com o link do Twitter
     instagram: "https://instagram.com/", // Preencher com o link do Instagram
@@ -73,7 +73,11 @@ const Founders = () => {
                   {/* Image Placeholder */}
                   <div className="w-full aspect-square mb-6 rounded-2xl bg-gradient-to-br from-muted/30 to-muted/10 border border-white/5 flex items-center justify-center relative overflow-hidden group-hover:from-primary/10 group-hover:to-accent/5 transition-colors">
                     <div className="absolute inset-0 bg-grid-white/5 [mask-image:linear-gradient(0deg,white,transparent)]" />
-                    <User className="w-24 h-24 text-muted-foreground/30 group-hover:text-primary/50 transition-colors duration-500" />
+                    <img 
+                    src={founder.image} 
+                    alt={founder.name} 
+                    className="max-w-full h-auto object-cover text-muted-foreground/30 group-hover:text-primary/50 transition-colors duration-500" 
+                    />
                     
                     {/* Placeholder content overlay */}
                     <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center gap-3">
